@@ -1,32 +1,32 @@
 #WELCOME TO THE BASH SCRIPT HELPER
 ##THIS IS THE ASCII ART DECLARATION SECTION
-a="
+a=print("
   __ _ 
  / _` |
 | (_| |
- \__,_|"
-b=" 
+ \__,_|")
+b=print(" 
  _     
 | |    
 | |__  
 | '_ \ 
 | |_) |
 |_.__/ 
-       "
-c="      
+       ")
+c=print("      
   ___ 
  / __|
 | (__ 
  \___|
-"
-d="   
+")
+d=print("   
      _ 
     | |
   __| |
  / _` |
 | (_| |
  \__,_|
-       "
+       ")
   #CALL
 name = input("Enter Your Desired Name: ")
 print("hello, " name)
