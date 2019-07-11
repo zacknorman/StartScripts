@@ -71,6 +71,6 @@ else
 	exit 1
 fi
 echo "Finishing up, making things pretty"
-#there's nothing "pretty" about hacking, but we'll fool some script kiddies"
+
 sleep 5 
 echo "Thanks for using my script, Kali and Bleeding Edge repos have been installed! You may use $(tput setaf 3) sudo apt-get install -t kali-bleeding-edge [packagename] $(tput sgr0)to install from Bleeding-Edge."
