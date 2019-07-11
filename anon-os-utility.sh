@@ -8,9 +8,9 @@ show_menu(){
     RED_TEXT=`echo "\033[31m"`
     ENTER_LINE=`echo "\033[33m"`
     echo -e "${MENU}*********************************************${NORMAL}"
-    echo -e "$(tput setaf 3)Welcome to the Anon OS Utility [made by zer0]$(tput sgr0)"
+    echo -e "$(tput setaf 3)Welcome to the Anon OS Utility [made by zaCC]$(tput sgr0)"
     echo -e "\t\trev 0.1 07/20/2016"
-    echo -e "${MENU}**${NUMBER} 1)${MENU} Full Install [codename: Huntsman] ${NORMAL}"
+    echo -e "${MENU}**${NUMBER} 1)${MENU} Full Install [codename: kali-bleeding-edge] ${NORMAL}"
     echo -e "${MENU}*********************************************${NORMAL}"
     echo -e "${ENTER_LINE}Please enter a menu option and enter or ${RED_TEXT}enter to exit. ${NORMAL}"
     echo -e "$(tput setaf 5) MORE FEATURES COMING SOON...$(tput sgr0)"
@@ -44,7 +44,7 @@ while [ opt != '' ]
         1) clear;
         	option_picked "Let's do this, then!";
 		core_install;
-		option_picked "Think before you type, and happy hacking!";
+		option_picked "it worked, try ' apt install setoolkit -t kali-bleeding-edge'!";
         	exit;
         ;;
          x)exit;
@@ -67,7 +67,7 @@ done
 if [ `whoami` == "root" ]; then
 	init_function;
 else
-	echo "$(tput setaf 1)ERROR:$(tput sgr0) Run it as root, plebian"
+	echo "$(tput setaf 1)ERROR:$(tput sgr0)U need root l0l"
 	exit 1
 fi
 echo "Finishing up, making things pretty"
